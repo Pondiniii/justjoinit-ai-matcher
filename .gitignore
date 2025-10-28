@@ -1,0 +1,56 @@
+# Data directory (large files, scraped content)
+data/
+data/**/*
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database (handled by docker-compose)
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Sensitive personal data (DO NOT COMMIT)
+system_prompt.md
+.env
